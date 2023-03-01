@@ -478,3 +478,5 @@ spawn(function()
 end)
 
 return library
+
+library:CreateWindow("wtf")
