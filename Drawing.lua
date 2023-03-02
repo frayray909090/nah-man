@@ -1,6 +1,6 @@
 local Drawing = {}
 
-function Draw(name,trans,thick)
+function Drawing:Draw(name,trans,thick)
   local Line = Drawing.new(""..name.."")
   Line.Visible = true
   Line.From = Vector2.new(0, 0)
